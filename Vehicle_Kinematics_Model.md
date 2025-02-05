@@ -62,3 +62,19 @@ $$
 \tan \delta_r / l
 \end{array}\right] v_r
 $$
+In the process of vehicle path tracking, the control quantity we want is $\left[v_{\mathrm{r}}, \omega\right]$, so the vehicle kinematic model can be converted to
+$$
+\left[\begin{array}{c}
+\dot{X}_r \\
+\dot{Y}_r \\
+\dot{\varphi}
+\end{array}\right]=\left[\begin{array}{c}
+\cos \varphi \\
+\sin \varphi \\
+0
+\end{array}\right] v_{\mathrm{r}}+\left[\begin{array}{l}
+0 \\
+0 \\
+1
+\end{array}\right] \omega
+$$
